@@ -1,7 +1,7 @@
 # CryptoGym
 Progetto d'esame [Sicurezza dei Dati]. 
 
-Una d-app esemplificativa dov'è possibile acquistare articoli sportivi e di benessere con un token fungibile creato ad hoc, HealthCoin
+Una d-app esemplificativa dov'è possibile acquistare articoli sportivi e di benessere tramite "HealthCoins", un token fungibile creato ad hoc a partire dallo standard ERC-20 (OpenZeppelin).
 
 ## Requisiti
 
