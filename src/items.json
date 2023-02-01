@@ -1,0 +1,58 @@
+[
+  {
+    "id": 0,
+    "name": "Manubrio 10 KG",
+    "picture": "https://www.kingsgym.it/572-large_default/manubri-esagonali-10-kg.jpg",
+    "description": "Per novellini",
+    "price": 20000000000000000000
+    },
+  {
+    "id": 1,
+    "name": "Manubrio 20 KG",
+    "picture": "https://www.kingsgym.it/576-large_default/manubri-esagonali-20-kg.jpg",
+    "description": "Ci sai fare",
+    "price": 40000000000000000000
+  },
+  {
+    "id": 2,
+    "name": "Disco Grip gommato",
+    "picture": "https://www.kingsgym.it/771-large_default/disco-grip-gommato.jpg",
+    "description": "Pompa quei muscoli!!",
+    "price": 40000000000000000000
+  },
+  {
+    "id": 3,
+    "name": "Bilanciere Woman Olimpionico",
+    "picture": "https://www.kingsgym.it/685-large_default/bilanciere-femminile-olimpico.jpg",
+    "description": "Non si scherza",
+    "price": 50000000000000000000
+  },
+  {
+    "id": 4,
+    "name": "Foldable Rack",
+    "picture": "https://www.kingsgym.it/724-large_default/foldable-rack.jpg",
+    "description": "Solo per esperti",
+    "price": 80000000000000000000
+  },
+  {
+    "id": 5,
+    "name": "Tapis Roulant",
+    "picture": "https://www.kingsgym.it/811-large_default/tapis-roulant-mnd.jpg",
+    "description": "Dopo le feste...",
+    "price": 110000000000000000000
+  },
+  {
+    "id": 6,
+    "name": "Leg Press Hack Squat",
+    "picture": "https://www.kingsgym.it/792-large_default/leg-press-hack-squat.jpg",
+    "description": "Daje con le gambe",
+    "price": 120000000000000000000
+  },
+  {
+    "id": 7,
+    "name": "Panca Regolabile PRO",
+    "picture": "https://www.kingsgym.it/630-large_default/panca-regolabile-pro.jpg",
+    "description": "Allarga quelle zizze",
+    "price": 250000000000000000000
+  }
+]
