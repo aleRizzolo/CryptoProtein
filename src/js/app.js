@@ -14,7 +14,7 @@ App = {
         itemTemplate.find(".item-description").text(data[i].description);
         itemTemplate.find(".item-price").attr("price", data[i].price);
         itemTemplate
-          .find(".healthcoin")
+          .find(".proteincoin")
           .text(data[i].price / 1000000000000000000);
         itemTemplate.find(".btn-pay").attr("data-id", data[i].id);
 
@@ -53,12 +53,12 @@ App = {
   },
 
   initContract: function () {
-    $.getJSON("HealthCoin.json", function (data) {
+    $.getJSON("ProteinCoin.json", function (data) {
       // Get the necessary contract artifact file and instantiate it with @truffle/contract
       var PPCArtifact = data;
-      App.contracts.HealthCoin = TruffleContract(PPCArtifact);
+      App.contracts.ProteinCoin = TruffleContract(PPCArtifact);
       // Set the provider for our contract
-      App.contracts.HealthCoin.setProvider(App.web3Provider);
+      App.contracts.ProteinCoin.setProvider(App.web3Provider);
     });
 
     return App.bindEvents();
@@ -72,7 +72,7 @@ App = {
     alert(
       "Transazione eseguita con successo: " +
         price / 1000000000000000000 +
-        "HealthCoin"
+        "ProteinCoin"
     );
   },
 
@@ -94,7 +94,7 @@ App = {
 
       var account = accounts[0];
 
-      App.contracts.HealthCoin.deployed()
+      App.contracts.ProteinCoin.deployed()
         .then(function (instance) {
           contractInstance = instance;
 

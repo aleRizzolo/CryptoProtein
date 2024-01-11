@@ -5,7 +5,7 @@
     "chai": "^4.3.7",
     "web3": "^1.8.1"
   },
-  "name": "crypto-gym",
+  "name": "crypto-protein",
   "version": "1.0.0",
   "description": "",
   "main": "truffle.js",

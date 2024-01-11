@@ -5,7 +5,7 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
 
-contract HealthCoin is ERC20, AccessControl {
+contract ProteinCoin is ERC20, AccessControl {
    bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
    address destinatario;
 
@@ -98,7 +98,7 @@ function setDestinatario (address to) public soloAdmin{
 function payItem(uint256 price, uint itemId) public returns (uint){
       // Controlla che il prezzo memorizzato per l'elemento corrisponda a quello specificato
       require(pricesMapping[itemId]==price);
-      // Controlla che il pagamento sia stato eseguito con successo all'indirizzo del gestore della CryptoGym
+      // Controlla che il pagamento sia stato eseguito con successo all'indirizzo del gestore CryptoProtein
       require(transfer(0x78f247fe3ccee2AbB9eA8a354f186cE5EB1dF538,price));
       // Restituisce l'ID dell'elemento
       return itemId;

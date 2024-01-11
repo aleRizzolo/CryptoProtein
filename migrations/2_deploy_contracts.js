@@ -1,6 +1,5 @@
-var HealthCoin = artifacts.require("HealthCoin");
+var ProteinCoin = artifacts.require("ProteinCoin");
 
-
-module.exports = function(deployer) {
-   deployer.deploy(HealthCoin,'HealthCoin','HC','100000000000000000000000');
-}
+module.exports = function (deployer) {
+  deployer.deploy(ProteinCoin, "ProteinCoin", "PC", "100000000000000000000000");
+};

@@ -1,58 +1,58 @@
 [
   {
     "id": 0,
-    "name": "Manubrio 10 KG",
-    "picture": "https://www.kingsgym.it/572-large_default/manubri-esagonali-10-kg.jpg",
-    "description": "Per novellini",
+    "name": "10 KG Whey Protein Chocolate",
+    "picture": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/10530943-1224889444460882.jpg",
+    "description": "Proteine del siero del latte gusto ciccolato",
     "price": 20000000000000000000
-    },
+  },
   {
     "id": 1,
-    "name": "Manubrio 20 KG",
-    "picture": "https://www.kingsgym.it/576-large_default/manubri-esagonali-20-kg.jpg",
-    "description": "Per chi ci sa fare",
+    "name": "Proteine del collagene",
+    "picture": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11067704-1584924200215988.jpg",
+    "description": "Proteine per la pelle",
     "price": 40000000000000000000
   },
   {
     "id": 2,
-    "name": "Disco Grip gommato",
-    "picture": "https://www.kingsgym.it/771-large_default/disco-grip-gommato.jpg",
-    "description": "Non è una ciambella",
+    "name": "Barrette wafer",
+    "picture": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/10961186-1894873398951381.jpg",
+    "description": "Barrette wafer gusto cioccolato",
     "price": 40000000000000000000
   },
   {
     "id": 3,
-    "name": "Bilanciere Woman Olimpionico",
-    "picture": "https://www.kingsgym.it/685-large_default/bilanciere-femminile-olimpico.jpg",
-    "description": "Vai donna!",
+    "name": "Cookies proteici",
+    "picture": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12293299-1294756941527511.jpg",
+    "description": "I preferiti di Cookie Monster",
     "price": 50000000000000000000
   },
   {
     "id": 4,
-    "name": "Foldable Rack",
-    "picture": "https://www.kingsgym.it/724-large_default/foldable-rack.jpg",
-    "description": "Solo per esperti",
+    "name": "Multivitamine",
+    "picture": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12088106-1084933719691716.jpg",
+    "description": "Proteine tutti i gusti più uno",
     "price": 80000000000000000000
   },
   {
     "id": 5,
-    "name": "Tapis Roulant",
-    "picture": "https://www.kingsgym.it/811-large_default/tapis-roulant-mnd.jpg",
-    "description": "Dopo le feste...",
+    "name": "Proteine vegane",
+    "picture": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11776868-2115081520567444.png",
+    "description": "Proteine vegane",
     "price": 110000000000000000000
   },
   {
     "id": 6,
-    "name": "Leg Press Hack Squat",
-    "picture": "https://www.kingsgym.it/879-large_default/leg-press-hack-squat.jpg",
-    "description": "Allena quelle gambe!!",
+    "name": "Collagene",
+    "picture": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/11067704-1584924200215988.jpg",
+    "description": "Collagene in polvere",
     "price": 120000000000000000000
   },
   {
     "id": 7,
-    "name": "Panca Regolabile PRO",
-    "picture": "https://www.kingsgym.it/630-large_default/panca-regolabile-pro.jpg",
-    "description": "Povere spalle...",
+    "name": "Metabolizzatore",
+    "picture": "https://static.thcdn.com/images/large/webp//productimg/1600/1600/12312819-1834987931596152.jpg",
+    "description": "Per digerire meglio i carboidrati",
     "price": 250000000000000000000
   }
 ]

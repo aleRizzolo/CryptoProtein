@@ -18,17 +18,17 @@ const {
 } = require("@openzeppelin/test-helpers");
 
 // Load compiled artifacts
-const HealthCoin = artifacts.require("HealthCoin");
+const ProteinCoin = artifacts.require("ProteinCoin");
 
 const ROLE = web3.utils.sha3("MINTER_ROLE");
 // Start test block
-contract("HealthCoin", function ([creator, minter, other]) {
-  const NAME = "HealthCoin";
+contract("ProteinCoin", function ([creator, minter, other]) {
+  const NAME = "ProteinCoin";
   const SYMBOL = "HC";
   const TOTAL_SUPPLY = new BN("10000000000000000000000");
 
   beforeEach(async function () {
-    this.token = await HealthCoin.new(NAME, SYMBOL, TOTAL_SUPPLY, {
+    this.token = await ProteinCoin.new(NAME, SYMBOL, TOTAL_SUPPLY, {
       from: creator,
     });
   });
@@ -119,7 +119,7 @@ contract("HealthCoin", function ([creator, minter, other]) {
     expect(await this.token.isMinter(minter)).to.equal(false);
   });
 
-  it("should return the correct item ID for the first item of the CryptoGym", async function () {
+  it("should return the correct item ID for the first item of the CryptoProtein", async function () {
     const price = "20000000000000000000";
     const itemId = 0;
 
@@ -129,7 +129,7 @@ contract("HealthCoin", function ([creator, minter, other]) {
     expect(result.toNumber()).to.equal(itemId);
   });
 
-  it("should return the correct item ID for the second item of the CryptoGym", async function () {
+  it("should return the correct item ID for the second item of the CryptoProtein", async function () {
     const price = "40000000000000000000";
     const itemId = 1;
 
@@ -139,7 +139,7 @@ contract("HealthCoin", function ([creator, minter, other]) {
     expect(result.toNumber()).to.equal(itemId);
   });
 
-  it("should return the correct item ID for the third item of the CryptoGym", async function () {
+  it("should return the correct item ID for the third item of the CryptoProtein", async function () {
     const price = "40000000000000000000";
     const itemId = 2;
 
@@ -149,7 +149,7 @@ contract("HealthCoin", function ([creator, minter, other]) {
     expect(result.toNumber()).to.equal(itemId);
   });
 
-  it("should return the correct item ID for the fourth item of the CryptoGym", async function () {
+  it("should return the correct item ID for the fourth item of the CryptoProtein", async function () {
     const price = "50000000000000000000";
     const itemId = 3;
 
@@ -159,7 +159,7 @@ contract("HealthCoin", function ([creator, minter, other]) {
     expect(result.toNumber()).to.equal(itemId);
   });
 
-  it("should return the correct item ID for the third item of the CryptoGym", async function () {
+  it("should return the correct item ID for the third item of the CryptoProtein", async function () {
     const price = "80000000000000000000";
     const itemId = 4;
 
@@ -169,7 +169,7 @@ contract("HealthCoin", function ([creator, minter, other]) {
     expect(result.toNumber()).to.equal(itemId);
   });
 
-  it("should return the correct item ID for the third item of the CryptoGym", async function () {
+  it("should return the correct item ID for the third item of the CryptoProtein", async function () {
     const price = "110000000000000000000";
     const itemId = 5;
 
@@ -179,7 +179,7 @@ contract("HealthCoin", function ([creator, minter, other]) {
     expect(result.toNumber()).to.equal(itemId);
   });
 
-  it("should return the correct item ID for the third item of the CryptoGym", async function () {
+  it("should return the correct item ID for the third item of the CryptoProtein", async function () {
     const price = "120000000000000000000";
     const itemId = 6;
 
@@ -189,7 +189,7 @@ contract("HealthCoin", function ([creator, minter, other]) {
     expect(result.toNumber()).to.equal(itemId);
   });
 
-  it("should return the correct item ID for the third item of the CryptoGym", async function () {
+  it("should return the correct item ID for the third item of the CryptoProtein", async function () {
     const price = "250000000000000000000";
     const itemId = 7;
 
