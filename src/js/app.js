@@ -25,8 +25,9 @@ App = {
     return await App.initWeb3();
   },
 
+  //inizializza la connessione con la blockchain
   initWeb3: async function () {
-    // Modern dapp browsers...
+    // Modern dapp browsers with metamask
     if (window.ethereum) {
       App.web3Provider = window.ethereum;
       try {
@@ -37,7 +38,7 @@ App = {
         console.error("User denied account access");
       }
     }
-    // Legacy dapp browsers...
+    // Legacy dapp browsers uses ganache
     else if (window.web3) {
       App.web3Provider = window.web3.currentProvider;
     }
@@ -53,6 +54,7 @@ App = {
   },
 
   initContract: function () {
+    //carica proteincoin.json da build/contracts
     $.getJSON("ProteinCoin.json", function (data) {
       // Get the necessary contract artifact file and instantiate it with @truffle/contract
       var PPCArtifact = data;
@@ -60,7 +62,7 @@ App = {
       // Set the provider for our contract
       App.contracts.ProteinCoin.setProvider(App.web3Provider);
     });
-
+    //fa il binding degli eventi con l'interfaccia grafica
     return App.bindEvents();
   },
 
