@@ -19,6 +19,6 @@ It uses BlockChain and ETH to make a transaction
 2. Metamask
 3. Node.js and npm
 
-<code>truffle compile</code>
-<code>truffle migrate</code>
-<code>npm run start</code>
+<code>truffle compile</code> <br>
+<code>truffle migrate</code> <br>
+<code>npm run start</code> <br>
